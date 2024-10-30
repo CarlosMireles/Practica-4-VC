@@ -1,0 +1,4 @@
+train: C:\Users\Administrator\Downloads\dataset\images\train
+val: C:\Users\Administrator\Downloads\dataset\images\val
+nc: 1  # Solo una clase (matrículas)
+names: ['license_plate']  # Nombre de la clase
