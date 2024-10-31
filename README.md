@@ -6,6 +6,7 @@ Este proyecto utiliza modelos de detección y reconocimiento óptico de caracter
 
 - [Preparación del entorno](#preparación-del-entorno)
 - [Entrenamiento de un modelo para detectar matrículas de coches](#entrenamiento-de-un-modelo-para-detectar-matrículas-de-coches)
+- [Proceso de detección y lectura de Matrículas](#proceso-de-detección-y-lectura-de-matrículas)
 
 ## Preparación del entorno
 
@@ -77,9 +78,6 @@ La imagen presenta una serie de gráficas que muestran las métricas y pérdidas
 
 - **metrics/mAP50(B) y metrics/mAP50-95(B)**: Estas métricas de mAP (mean Average Precision) muestran una alta precisión en diferentes niveles de IoU (Intersection over Union), indicando un buen desempeño general del modelo en la detección de objetos.
 
-Aquí tienes una versión revisada del resumen que incluye un cambio en la parte introductoria y menciona que los resultados se guardan en un archivo CSV:
-
----
 
 ## Proceso de detección y lectura de Matrículas
 
