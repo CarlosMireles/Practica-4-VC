@@ -90,7 +90,7 @@ Este proyecto desarrolla un sistema para la detección y lectura de matrículas 
 
 Este enfoque permite identificar, localizar y leer matrículas de manera eficiente en tiempo real.
 
-![Métricas Dataset](images\imagen_prueba_1.png)
+![Imágen prueba](images\imagen_prueba_1.png)
 
 ## Detalles extra
 
