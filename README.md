@@ -39,7 +39,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 
 ## Entrenamiento de un modelo para detectar matrículas de coches
 
-**Entrenamiento del Modelo**:
+### Entrenamiento del Modelo
    - Este código utiliza el modelo YOLO v8 para entrenarlo en la detección de matrículas. 
    
    - Primero, carga el modelo preentrenado YOLOv8n. 
@@ -58,13 +58,12 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
         model.val()
      ```
 
-**Imagenes del Dataset**:
+### Imagenes del Dataset
 
 <img src="images\Cars94_annotated.png" width="300" height="300" style="display:inline-block;" />
 <img src="images\Cars389_annotated.png" width="300" height="300" style="display:inline-block;" />
 
-
- **Gráficas de Entrenamiento y Validación**
+### Gráficas de Entrenamiento y Validación
 
 ![Métricas Dataset](model\results.png) 
 
@@ -91,7 +90,14 @@ Este proyecto desarrolla un sistema para la detección y lectura de matrículas 
 
 Este enfoque permite identificar, localizar y leer matrículas de manera eficiente en tiempo real.
 
-![Métricas Dataset](images\imagen_prueba_1.png) 
+![Métricas Dataset](images\imagen_prueba_1.png)
+
+## Detalles extra
+
+El vídeo con las detecciones se puede encontrar en este *[link](video/video1final.mp4)*.
+
+El archivo CSV con la información de las detecciones puede ser encontrado en este *[link](output.csv)*.
+
 ---
 Saúl Antonio Cruz Pérez  
 Carlos Mireles Rodríguez
