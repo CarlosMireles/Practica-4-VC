@@ -65,7 +65,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 
 ### Gráficas de Entrenamiento y Validación
 
-![Métricas Dataset](model\results.png)
+<img src="model\results.png"/>
 
 La imagen presenta una serie de gráficas que muestran las métricas y pérdidas clave en el proceso de entrenamiento y validación del modelo.
 
@@ -90,7 +90,7 @@ Este proyecto desarrolla un sistema para la detección y lectura de matrículas 
 
 Este enfoque permite identificar, localizar y leer matrículas de manera eficiente en tiempo real.
 
-![Imágen prueba](images\imagen_prueba_1.png)
+<img src="images\imagen_prueba_1.png"/>
 
 ## Detalles extra
 
