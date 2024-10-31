@@ -77,3 +77,29 @@ La imagen presenta una serie de gráficas que muestran las métricas y pérdidas
 
 - **metrics/mAP50(B) y metrics/mAP50-95(B)**: Estas métricas de mAP (mean Average Precision) muestran una alta precisión en diferentes niveles de IoU (Intersection over Union), indicando un buen desempeño general del modelo en la detección de objetos.
 
+Aquí tienes una versión revisada del resumen que incluye un cambio en la parte introductoria y menciona que los resultados se guardan en un archivo CSV:
+
+---
+
+## Proceso de detección y lectura de Matrículas
+
+Este proyecto desarrolla un sistema para la detección y lectura de matrículas en video utilizando modelos avanzados de detección de objetos y reconocimiento óptico de caracteres (OCR). El proceso se lleva a cabo en varias etapas:
+
+1. **Detección de Objetos**: Se emplea el modelo **YOLOv11** para identificar objetos en cada fotograma del video, incluyendo personas y vehículos. Esto se logra extrayendo las coordenadas de los objetos detectados.
+
+2. **Detección de Matrículas**: Tras identificar los vehículos, se recorta la región de interés y se aplica un modelo especializado de YOLO para localizar las matrículas en esos vehículos.
+
+3. **Lectura de Matrículas**: Las áreas recortadas de las matrículas se procesan utilizando **EasyOCR**, que reconoce y extrae el texto. Los resultados obtenidos se almacenan en un archivo CSV para su posterior análisis y referencia.
+
+Este enfoque permite identificar, localizar y leer matrículas de manera eficiente en tiempo real.
+
+![Métricas Dataset](images\imagen_prueba_1.png) 
+---
+Saúl Antonio Cruz Pérez  
+Carlos Mireles Rodríguez
+
+Universidad de las Palmas de Gran Canaria  
+Escuela de Ingeniería en Informática  
+Grado de Ingeniería Informática  
+Visión por Computador  
+Curso 2024/2025
