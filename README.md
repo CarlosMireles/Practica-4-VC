@@ -60,6 +60,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 
 ### Imagenes del Dataset
 
+[Enlace al dataset]([https://pytorch.org/get-started/locally/](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection))
+
 <img src="images\Cars94_annotated.png" width="300" height="300" style="display:inline-block;" />
 <img src="images\Cars389_annotated.png" width="300" height="300" style="display:inline-block;" />
 
